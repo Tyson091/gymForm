@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymForm</title>
+    <link rel="stylesheet" href="gym.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Berkshire+Swash&family=Goldman&family=Kanit:wght@300&family=Orbitron:wght@600&family=Permanent+Marker&family=Viga&display=swap" rel="stylesheet">
+    
+</head>
+<body id="body">
+   <div class="regs" id="reg">
+       <p>Congratulations , <br>You are about to become a member of Training Arc</p>
+      <p>Name - <p id="nm"></p></p>
+      <p>Number - <p id="pn"></p> </p>
+      <p>PIN -  <p id="add"></p></p>
+      <p>DOB -  <p  id="dob"></p></p>
+      <button id="back" onclick="myfun2()">Back</button>
+      <button  id="done" onclick="myfun3()"><a href="member.html">Continue</a></button>
+
+   </div>
+<button id="con"><a href="mailto:adityaanand832@gmail.com">Contact Us</a></button>    
+    <header id="head">
+        <h1 > Training </h1>
+        <img src="duble2-removebg-preview.png">
+        <h2 >Arc</h2>
+
+    </header>
+    <div class="desc" id="desc">
+        <h1>Want to become a body builder ? Join us</h1>
+    </div>
+    <div class="form" id="frm">
+        <h2>Join Now</h2>
+        <br>
+
+        <input type="text" id="fname" name="fname" required placeholder="Enter your full name :" autocomplete="off">
+        <br>
+        <br>
+
+        <input type="text" id="fnum" name="fnum" required placeholder="Enter your phoneNumber :" autocomplete="off" maxlength="10"">
+        <br>
+
+
+        <br>
+
+        <input type="text" id="fadd" name="fadd" required placeholder="Enter your PIN code :" autocomplete="off"> 
+        <br>
+
+
+        <br>
+
+        <input type="date" id="fdob" name="fnom" required placeholder="Enter your DOB :" autocomplete="off">
+        <br>
+<button id="btn" onclick="myfun()">Submit</button>
+
+          </div>
+</body>
+<script src="gym.js"></script>
+
+</html>
